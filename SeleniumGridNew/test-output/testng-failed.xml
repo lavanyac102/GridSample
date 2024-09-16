@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grid Execution]">
+  <test thread-count="5" parallel="classes" name="sel grid(failed)">
+    <classes>
+      <class name="samp.RSATest">
+        <methods>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- samp.RSATest -->
+    </classes>
+  </test> <!-- sel grid(failed) -->
+</suite> <!-- Failed suite [Grid Execution] -->

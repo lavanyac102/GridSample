@@ -1,0 +1,8 @@
+<suite parallael="classes" name="Grid Execution">
+	<test name="sel grid" parallel="classes">
+		<classes>
+			<class name="samp.RSATest"></class>
+			<class name="samp.GoogleTest"></class>
+		</classes>
+	</test>
+</suite>
